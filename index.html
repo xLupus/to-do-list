@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de Tarefas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <span>Lista de Tarefas</span>
+
+            <div class="input-task">
+                <input type="text" id="add-task" placeholder="Nova tarefa...">
+                <button id="btn-add-task">Adicionar Tarefa</button>
+            </div><!-- input-task -->
+
+            <div class="tasks">
+                <span>Tarefas</span>
+
+                <div class="filter">
+                    <label for="filter-task">Filtro</label>
+                    <input type="text" id="filter-task">
+                </div><!-- filter -->
+
+                <ul id="task-collection"></ul>
+            </div><!-- tasks -->
+
+            <button class="btn-del-tasks">Apagar Tarefas</button>
+        </div><!-- container -->
+
+        <script src="script.js"></script>
+    </body>
+</html>
